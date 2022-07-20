@@ -14,7 +14,9 @@
 		62BDE3B3A57A3A25F7AACC63 /* libPods-firstapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B15ADCD7432D3074B0D4AAD1 /* libPods-firstapp.a */; };
 		7700EADA0D5FAB50989F36A4 /* libPods-firstapp-firstappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F511AFCC7F357FF3C41C0D6 /* libPods-firstapp-firstappTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		ADFD31A62886E9C800D7F314 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = ADFD31A52886E9C800D7F314 /* Fonts */; };
+		ADA8C1912887CAFC003548FC /* Poppins_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C1902887CAFC003548FC /* Poppins_Bold.ttf */; };
+		ADA8C1932887CB00003548FC /* Poppins_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C1922887CB00003548FC /* Poppins_Medium.ttf */; };
+		ADA8C1952887CB13003548FC /* Poppins_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C1942887CB13003548FC /* Poppins_Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,9 @@
 		15E76DCCA6E431FF1BAA28F4 /* Pods-firstapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstapp.release.xcconfig"; path = "Target Support Files/Pods-firstapp/Pods-firstapp.release.xcconfig"; sourceTree = "<group>"; };
 		5F511AFCC7F357FF3C41C0D6 /* libPods-firstapp-firstappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firstapp-firstappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = firstapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ADFD31A52886E9C800D7F314 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = firstapp/Fonts; sourceTree = "<group>"; };
+		ADA8C1902887CAFC003548FC /* Poppins_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Poppins_Bold.ttf; path = firstapp/Fonts/Poppins_Bold.ttf; sourceTree = "<group>"; };
+		ADA8C1922887CB00003548FC /* Poppins_Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Poppins_Medium.ttf; sourceTree = "<group>"; };
+		ADA8C1942887CB13003548FC /* Poppins_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Poppins_Regular.ttf; sourceTree = "<group>"; };
 		B15ADCD7432D3074B0D4AAD1 /* libPods-firstapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firstapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34D947B65FF9DF0245F8868 /* Pods-firstapp-firstappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstapp-firstappTests.debug.xcconfig"; path = "Target Support Files/Pods-firstapp-firstappTests/Pods-firstapp-firstappTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DBD947D201CE86354638BD5D /* Pods-firstapp-firstappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstapp-firstappTests.release.xcconfig"; path = "Target Support Files/Pods-firstapp-firstappTests/Pods-firstapp-firstappTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,7 +106,6 @@
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				ADFD31A52886E9C800D7F314 /* Fonts */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
@@ -130,6 +133,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				ADA8C1942887CB13003548FC /* Poppins_Regular.ttf */,
+				ADA8C1922887CB00003548FC /* Poppins_Medium.ttf */,
+				ADA8C1902887CAFC003548FC /* Poppins_Bold.ttf */,
 				13B07FAE1A68108700A75B9A /* firstapp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* firstappTests */,
@@ -245,8 +251,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADFD31A62886E9C800D7F314 /* Fonts in Resources */,
+				ADA8C1912887CAFC003548FC /* Poppins_Bold.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				ADA8C1932887CB00003548FC /* Poppins_Medium.ttf in Resources */,
+				ADA8C1952887CB13003548FC /* Poppins_Regular.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

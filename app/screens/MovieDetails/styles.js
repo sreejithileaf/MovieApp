@@ -3,8 +3,8 @@
  * Dashboard Screen - About Us Screen Styles
  */
 
-import { StyleSheet } from 'react-native';
-import Constants from '../../config/constants';
+import { StyleSheet } from "react-native";
+import Constants from "../../config/constants";
 
 const styles = StyleSheet.create({
   safeContainer: {
@@ -14,21 +14,11 @@ const styles = StyleSheet.create({
   posterStyle: {
     height: 210,
     borderBottomLeftRadius: 16,
-    borderBottomRightRadius: 16
-  },
-
-  imgContainer: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
-    justifyContent: 'flex-start',
-    alignItems: 'flex-start',
+    borderBottomRightRadius: 16,
   },
 
   movieTitleContainer: {
-    flexDirection: 'column',
+    flexDirection: "column",
     marginStart: 20,
     marginEnd: 20,
   },
@@ -37,20 +27,13 @@ const styles = StyleSheet.create({
     height: 125,
     width: 95,
     borderRadius: 15,
-    position: 'absolute',
+    position: "absolute",
     top: -60,
     left: 0,
     right: 0,
     bottom: 0,
-    justifyContent: 'flex-start',
-    alignItems: 'flex-start',
-  },
-
-  subPosterContainer: {
-    flex: 1,
-    flexDirection: 'row',
-    marginStart: 20,
-    marginEnd: 20,
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
   },
 
   movieTitleTextStyle: {
@@ -58,22 +41,17 @@ const styles = StyleSheet.create({
     color: Constants.APP_WHITE_COLOR,
     fontFamily: Constants.Fonts.BOLD,
     marginStart: 110,
-    marginTop: 15
+    marginTop: 15,
   },
 
   movieTextStyle: {
     color: Constants.APP_WHITE_COLOR,
     fontFamily: Constants.Fonts.REGULAR,
-    fontWeight: '500'
+    fontWeight: "500",
   },
 
-  listContainer: {
-
-    marginStart: 20,
-    marginEnd: 20,
-  },
   genreTextStyle: {
-    alignItems: 'flex-start',
+    alignItems: "flex-start",
     fontSize: 12,
     fontFamily: Constants.Fonts.MEDIUM,
     color: Constants.APP_LIGHTGREY_COLOR,
@@ -88,25 +66,19 @@ const styles = StyleSheet.create({
     borderRadius: 16,
   },
 
-
   backButtonContainer: {
-    flexDirection: 'row',
-    justifyContent: 'center',
+    flexDirection: "row",
+    justifyContent: "center",
     width: 105,
     height: 42,
-    marginTop: 50,
-    marginBottom: 30,
     backgroundColor: Constants.APP_GENRES_COLOR,
     borderRadius: 16,
   },
 
   watchListContainer: {
-    flexDirection: 'row',
-    justifyContent: 'center',
+    justifyContent: "center",
     width: 42,
     height: 42,
-    marginTop: 50,
-    marginBottom: 30,
     backgroundColor: Constants.APP_GREEN_COLOR,
     borderRadius: 16,
   },
@@ -116,6 +88,77 @@ const styles = StyleSheet.create({
     width: 90,
     borderTopWidth: 4,
     marginTop: 5,
+  },
+  genreListStyle: {
+    flexGrow: 0,
+    marginTop: 15,
+  },
+  aboutMovieStyle: {
+    fontSize: 14,
+    width: 90,
+    marginTop: 15,
+  },
+
+  overviewStyle: {
+    fontSize: 12,
+    marginTop: 15,
+  },
+
+  overviewContentStyle: {
+    fontSize: 12,
+    marginTop: 5,
+  },
+
+  releaseStyle: {
+    fontSize: 12,
+    marginTop: 12,
+  },
+  releaseContentStyle: {
+    fontSize: 12,
+  },
+
+  rowStyle: {
+    flexDirection: "row",
+  },
+  avgRatingContainer: {
+    flex: 1,
+    flexDirection: "column",
+    marginTop: 12,
+    alignSelf: "flex-start",
+  },
+
+  bottomContainerStyle: {
+    flexDirection: "row",
+    marginHorizontal: 20,
+    marginBottom: 10,
+  },
+  backButtonContainerStyle: {
+    flex: 1,
+    flexDirection: "column",
+    alignSelf: "flex-start",
+  },
+  backButtonImageStyle: {
+    width: 16,
+    height: 14,
+    alignSelf: "center",
+    justifyContent: "center",
+  },
+  backTextStyle: {
+    color: Constants.APP_LIGHTGREY_COLOR,
+    marginStart: 10,
+    fontSize: 14,
+    alignSelf: "center",
+  },
+  watchListContainerStyle: {
+    flex: 1,
+    flexDirection: "column",
+    alignItems: "flex-end",
+  },
+  watchListImageStyle: {
+    width: 14,
+    height: 18,
+    alignSelf: "center",
+    justifyContent: "center",
   },
 });
 

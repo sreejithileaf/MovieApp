@@ -3,27 +3,25 @@
  * Dashboard Screen - About Us Screen Styles
  */
 
-import { StyleSheet } from 'react-native';
-import Constants from '../../config/constants';
+import { StyleSheet } from "react-native";
+import Constants from "../../config/constants";
 
 const styles = StyleSheet.create({
   safeContainer: {
     flex: 1,
     backgroundColor: Constants.APP_TAB_COLOR,
   },
-  container: {
-    flex: 1,
-    backgroundColor: Constants.APP_TAB_COLOR,
-  },
 
-  listContainer: {
-    marginStart: 20,
-    marginEnd: 20,
-  },
   watchlistStyles: {
-    flexDirection: 'row',
+    flexDirection: "row",
     marginTop: 5,
-    marginBottom: 5
+    marginBottom: 5,
+    backgroundColor: Constants.APP_GREEN_COLOR,
+    borderColor: Constants.APP_GREEN_COLOR,
+    width: 135,
+    height: 42,
+    borderRadius: 10,
+    marginEnd: 20,
   },
 
   categoryContainer: {
@@ -37,24 +35,27 @@ const styles = StyleSheet.create({
 
   watchlistText: {
     color: Constants.APP_TAB_COLOR,
-    alignSelf: 'center',
+    alignSelf: "center",
     fontFamily: Constants.Fonts.MEDIUM,
-    fontWeight: '600',
-    marginStart: 10
+    fontWeight: "600",
+    marginStart: 10,
   },
 
   watchListContainer: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
+    position: "absolute",
     right: 0,
-    bottom: 0,
-    justifyContent: 'flex-end',
-    alignItems: 'flex-end'
+    bottom: 10,
+    justifyContent: "flex-end",
+    alignItems: "flex-end",
+  },
+
+  watchListImageStyle: {
+    alignSelf: "center",
+    marginStart: 20,
   },
 
   headingTextStyle: {
-    alignItems: 'flex-start',
+    alignItems: "flex-start",
     fontSize: 34,
     fontFamily: Constants.Fonts.MEDIUM,
     color: Constants.APP_WHITE_COLOR,
@@ -64,7 +65,7 @@ const styles = StyleSheet.create({
   },
 
   subHeadingOneTextStyle: {
-    alignItems: 'flex-start',
+    alignItems: "flex-start",
     fontSize: 16,
     fontFamily: Constants.Fonts.MEDIUM,
     color: Constants.APP_WHITE_COLOR,
@@ -74,20 +75,34 @@ const styles = StyleSheet.create({
   },
 
   categoryTextStyle: {
-    alignItems: 'flex-start',
+    alignItems: "flex-start",
     fontSize: 12,
     fontFamily: Constants.Fonts.MEDIUM,
     color: Constants.APP_LIGHTGREY_COLOR,
   },
 
   selectedText: {
-    alignItems: 'flex-start',
+    alignItems: "flex-start",
     fontSize: 12,
     fontFamily: Constants.Fonts.MEDIUM,
     color: Constants.APP_TAB_COLOR,
   },
 
+  categoryListStyle: {
+    flexGrow: 0,
+  },
 
+  movieListStyle: {
+    flex: 1,
+    marginTop: 30,
+    marginStart: 20,
+    marginEnd: 20,
+  },
+
+  movieListContentStyle: {
+    justifyContent: "center",
+    alignContent: "center",
+  },
 });
 
 export default styles;

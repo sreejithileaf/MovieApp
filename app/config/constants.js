@@ -18,13 +18,13 @@ export default (constants = {
 
   Fonts: {
     REGULAR:
-      Platform.OS === 'ios' ? 'Poppins_Regular' : 'Poppins_Regular',
+      Platform.OS === 'ios' ? 'Poppins-Regular' : 'Poppins_Regular',
 
     BOLD:
-      Platform.OS === 'ios' ? 'Poppins_Regular' : 'Poppins_Bold',
+      Platform.OS === 'ios' ? 'Poppins-Regular' : 'Poppins_Bold',
 
     MEDIUM:
-      Platform.OS === 'ios' ? 'Poppins_Regular' : 'Poppins_Medium',
+      Platform.OS === 'ios' ? 'Poppins-Regular' : 'Poppins_Medium',
   },
 
 
