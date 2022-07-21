@@ -3,8 +3,8 @@
  * Common - Common functions in the App.
  */
 
-import { Alert } from 'react-native';
-import Constants from './constants';
+import { Alert } from "react-native";
+import Constants from "./constants";
 
 // Method to check object is empty/null
 export function isEmpty(obj) {
@@ -19,7 +19,7 @@ export function isEmpty(obj) {
   // If it isn't an object at this point
   // it is empty, but it can't be anything *but* empty
   // Is it empty?  Depends on your application.
-  if (typeof obj !== 'object') return true;
+  if (typeof obj !== "object") return true;
 
   // Otherwise, does it have any properties of its own?
   // Note that this doesn't handle
@@ -35,7 +35,7 @@ export function showSingleAlert(alertMessage, okText, callbackFunction) {
   setTimeout(function () {
     Alert.alert(Constants.APP_NAME, alertMessage, [
       {
-        text: okText ? okText : 'Ok',
+        text: okText ? okText : "Ok",
         onPress: () => {
           callbackFunction ? callbackFunction() : null;
         },
@@ -43,22 +43,3 @@ export function showSingleAlert(alertMessage, okText, callbackFunction) {
     ]);
   }, 100);
 }
-
-
-/** Calculate the expected width of the UI */
-export function normalizedWidth(value) {
-  if (Constants.SCREEN_WIDTH > Constants.SCREEN_HEIGHT) {
-    return (value / Constants.APP_BASE_WIDTH) * Constants.SCREEN_HEIGHT;
-  }
-  return (value / Constants.APP_BASE_WIDTH) * Constants.SCREEN_WIDTH;
-}
-
-/** Calculate the expected height of the UI */
-export function normalizedHeight(value) {
-  if (Constants.SCREEN_WIDTH > Constants.SCREEN_HEIGHT) {
-    return (value / Constants.APP_BASE_HEIGHT) * Constants.SCREEN_WIDTH;
-  }
-  return (value / Constants.APP_BASE_HEIGHT) * Constants.SCREEN_HEIGHT;
-}
-
-

@@ -161,8 +161,7 @@ export default class DashboardScreen extends Component {
           extraData={this.state.selectedItem}
           style={styles.categoryListStyle}
           horizontal={true}
-          data={this.getCategories()}
-          keyExtractor={(index) => index.toString()}
+          data={this.getCategories()}         
           showsHorizontalScrollIndicator={false}
           renderItem={({ item, index }) => {
             return (
@@ -210,8 +209,7 @@ export default class DashboardScreen extends Component {
           style={styles.movieListStyle}
           data={movieData}
           showsVerticalScrollIndicator={false}
-          extraData={movieData}
-          keyExtractor={(item) => item.id}
+          extraData={movieData}         
           renderItem={({ item }) => {
             return (
               <TouchableHighlight

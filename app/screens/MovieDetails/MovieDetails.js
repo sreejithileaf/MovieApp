@@ -17,7 +17,7 @@ import styles from "./styles";
 import React, { Component } from "react";
 import Images from "../../config/images";
 import Constants from "../../config/constants";
-import { ScrollView } from "react-native-gesture-handler";
+import { ScrollView } from "react-native";
 import HudView from "../../components/hudView";
 
 export default class MovieDetails extends Component {
@@ -106,7 +106,7 @@ export default class MovieDetails extends Component {
 
     return (
       <SafeAreaView style={styles.safeContainer}>
-        <ScrollView>
+        <ScrollView showsVerticalScrollIndicator={false}>
           <Image
             style={styles.posterStyle}
             source={{
@@ -129,15 +129,13 @@ export default class MovieDetails extends Component {
             style={styles.genreListStyle}
             horizontal={true}
             data={movieData.genres}
-            keyExtractor={(index) => index.toString()}
-            renderItem={({ item, index }) => {
+            renderItem={({ item, key }) => {
               return (
                 <View
                   style={[
                     {
-                      marginLeft: index == 0 ? 20 : 10,
-                      marginRight:
-                        index == movieData.genres.length - 1 ? 20 : 10,
+                      marginLeft: key == 0 ? 20 : 10,
+                      marginRight: key == movieData.genres.length - 1 ? 20 : 10,
                     },
                   ]}
                 >

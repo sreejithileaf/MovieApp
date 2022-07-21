@@ -1,0 +1,452 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#242A32",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    showsVerticalScrollIndicator={false}
+  >
+    <View>
+      <Image
+        source={
+          Object {
+            "uri": "https://image.tmdb.org/t/p/w300undefined",
+          }
+        }
+        style={
+          Object {
+            "borderBottomLeftRadius": 16,
+            "borderBottomRightRadius": 16,
+            "height": 210,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "column",
+            "marginEnd": 20,
+            "marginStart": 20,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://image.tmdb.org/t/p/w300undefined",
+            }
+          }
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "borderRadius": 15,
+              "bottom": 0,
+              "height": 125,
+              "justifyContent": "flex-start",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": -60,
+              "width": 95,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Poppins-Regular",
+              "fontSize": 18,
+              "marginStart": 110,
+              "marginTop": 15,
+            }
+          }
+        />
+      </View>
+      <RCTScrollView
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={true}
+        keyExtractor={[Function]}
+        onContentSizeChange={[Function]}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        style={
+          Object {
+            "flexGrow": 0,
+            "marginTop": 15,
+          }
+        }
+        viewabilityConfigCallbackPairs={Array []}
+      >
+        <View />
+      </RCTScrollView>
+      <View
+        style={
+          Object {
+            "flexDirection": "column",
+            "marginEnd": 20,
+            "marginStart": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Poppins-Regular",
+                "fontWeight": "500",
+              },
+              Object {
+                "fontSize": 14,
+                "marginTop": 15,
+                "width": 90,
+              },
+            ]
+          }
+        >
+          About Movie
+        </Text>
+        <View
+          style={
+            Object {
+              "borderTopColor": "#3A3F47",
+              "borderTopWidth": 4,
+              "marginTop": 5,
+              "width": 90,
+            }
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Poppins-Regular",
+                "fontWeight": "500",
+              },
+              Object {
+                "fontSize": 12,
+                "marginTop": 15,
+              },
+            ]
+          }
+        >
+          Overviews:
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Poppins-Regular",
+                "fontWeight": "500",
+              },
+              Object {
+                "fontSize": 12,
+                "marginTop": 5,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Poppins-Regular",
+                "fontWeight": "500",
+              },
+              Object {
+                "fontSize": 12,
+                "marginTop": 12,
+              },
+            ]
+          }
+        >
+          Release Date:
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Poppins-Regular",
+                "fontWeight": "500",
+              },
+              Object {
+                "fontSize": 12,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "flex-start",
+                "flex": 1,
+                "flexDirection": "column",
+                "marginTop": 12,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Poppins-Regular",
+                    "fontWeight": "500",
+                  },
+                  Object {
+                    "fontSize": 12,
+                  },
+                ]
+              }
+            >
+              Average Rating:
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Poppins-Regular",
+                    "fontWeight": "500",
+                  },
+                  Object {
+                    "fontSize": 12,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "flexDirection": "column",
+                "marginTop": 12,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Poppins-Regular",
+                    "fontWeight": "500",
+                  },
+                  Object {
+                    "fontSize": 12,
+                  },
+                ]
+              }
+            >
+              Rate Count:
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Poppins-Regular",
+                    "fontWeight": "500",
+                  },
+                  Object {
+                    "fontSize": 12,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Poppins-Regular",
+                "fontWeight": "500",
+              },
+              Object {
+                "fontSize": 12,
+                "marginTop": 12,
+              },
+            ]
+          }
+        >
+          Popularity:
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Poppins-Regular",
+                "fontWeight": "500",
+              },
+              Object {
+                "fontSize": 12,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginBottom": 10,
+        "marginHorizontal": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "flex": 1,
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#3A3F47",
+            "borderRadius": 16,
+            "flexDirection": "row",
+            "height": 42,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 105,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../app/assets/images/back.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "height": 14,
+              "justifyContent": "center",
+              "width": 16,
+            }
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Poppins-Regular",
+                "fontWeight": "500",
+              },
+              Object {
+                "alignSelf": "center",
+                "color": "#EEEEEE",
+                "fontSize": 14,
+                "marginStart": 10,
+              },
+            ]
+          }
+        >
+          Back
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flex": 1,
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#4FCCA3",
+            "borderRadius": 16,
+            "height": 42,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 42,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../app/assets/images/watchlist_dark.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "height": 18,
+              "justifyContent": "center",
+              "width": 14,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

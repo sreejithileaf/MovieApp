@@ -1,0 +1,512 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#242A32",
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "color": "#FFFFFF",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 34,
+        "marginEnd": 20,
+        "marginStart": 20,
+        "marginTop": 50,
+      }
+    }
+  >
+    Movies App
+  </Text>
+  <Text
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "color": "#FFFFFF",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "marginEnd": 20,
+        "marginStart": 20,
+        "marginTop": 22,
+      }
+    }
+  >
+    Find your movies
+  </Text>
+  <Text
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "color": "#FFFFFF",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 16,
+        "marginEnd": 20,
+        "marginStart": 20,
+        "marginTop": 22,
+      }
+    }
+  >
+    Categories
+  </Text>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "category": "Top rated",
+          "id": "1",
+        },
+        Object {
+          "category": "Popular",
+          "id": "2",
+        },
+        Object {
+          "category": "Now Playing",
+          "id": "3",
+        },
+        Object {
+          "category": "Latest",
+          "id": "4",
+        },
+        Object {
+          "category": "Upcoming",
+          "id": "5",
+        },
+      ]
+    }
+    extraData={1}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "flexGrow": 0,
+      }
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "marginLeft": 20,
+                "marginRight": 10,
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#3A3F47",
+                "borderRadius": 16,
+                "marginTop": 15,
+                "opacity": 1,
+                "paddingBottom": 5,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "color": "#EEEEEE",
+                  "fontFamily": "Poppins-Regular",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Top rated
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "marginLeft": 10,
+                "marginRight": 10,
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#3A3F47",
+                "borderRadius": 16,
+                "marginTop": 15,
+                "opacity": 1,
+                "paddingBottom": 5,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "color": "#EEEEEE",
+                  "fontFamily": "Poppins-Regular",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Popular
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "marginLeft": 10,
+                "marginRight": 10,
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#3A3F47",
+                "borderRadius": 16,
+                "marginTop": 15,
+                "opacity": 1,
+                "paddingBottom": 5,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "color": "#EEEEEE",
+                  "fontFamily": "Poppins-Regular",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Now Playing
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "marginLeft": 10,
+                "marginRight": 10,
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#3A3F47",
+                "borderRadius": 16,
+                "marginTop": 15,
+                "opacity": 1,
+                "paddingBottom": 5,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "color": "#EEEEEE",
+                  "fontFamily": "Poppins-Regular",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Latest
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "marginLeft": 10,
+                "marginRight": 20,
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#3A3F47",
+                "borderRadius": 16,
+                "marginTop": 15,
+                "opacity": 1,
+                "paddingBottom": 5,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "color": "#EEEEEE",
+                  "fontFamily": "Poppins-Regular",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Upcoming
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <RCTScrollView
+    data=""
+    extraData=""
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "flex": 1,
+        "marginEnd": 20,
+        "marginStart": 20,
+        "marginTop": 30,
+      }
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View />
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "bottom": 10,
+        "justifyContent": "flex-end",
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#4FCCA3",
+          "borderColor": "#4FCCA3",
+          "borderRadius": 10,
+          "flexDirection": "row",
+          "height": 42,
+          "marginBottom": 5,
+          "marginEnd": 20,
+          "marginTop": 5,
+          "opacity": 1,
+          "width": 135,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#242A32",
+            "fontFamily": "Poppins-Regular",
+            "fontWeight": "600",
+            "marginStart": 10,
+          }
+        }
+      >
+        Watch List
+      </Text>
+      <Image
+        source={
+          Object {
+            "testUri": "../../../app/assets/images/watchlist_dark.png",
+          }
+        }
+        style={
+          Object {
+            "alignSelf": "center",
+            "marginStart": 20,
+          }
+        }
+      />
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
