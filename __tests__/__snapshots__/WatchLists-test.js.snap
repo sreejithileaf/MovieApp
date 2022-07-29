@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`Watch Lists Screen renders correctly Snapshot  1`] = `
 <RCTSafeAreaView
   emulateUnlessSupported={true}
   style={

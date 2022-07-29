@@ -119,20 +119,18 @@ export default class DashboardScreen extends Component {
     });
   };
 
-  componentDidMount() {
+  componentDidMount = async () => {
     const { catId } = this.state;
-    this.props.getTopRatedAction(
-      ApiConstants.API_TOP_RATED,
-      ({ data, status }) => {
-        if (status) {
-          console.log("DASHBOARD SCREEN", data);
-          this.setState({
-            movieData: data,
-          });
-        }
+    const { getTopRatedAction } = this.props;
+    getTopRatedAction(ApiConstants.API_TOP_RATED, ({ data, status }) => {
+      if (status) {
+        console.log("DASHBOARD SCREEN", data);
+        this.setState({
+          movieData: data,
+        });
       }
-    );
-  }
+    });
+  };
 
   /*
    * Navigates to back
@@ -161,7 +159,7 @@ export default class DashboardScreen extends Component {
           extraData={this.state.selectedItem}
           style={styles.categoryListStyle}
           horizontal={true}
-          data={this.getCategories()}         
+          data={this.getCategories()}
           showsHorizontalScrollIndicator={false}
           renderItem={({ item, index }) => {
             return (
@@ -209,7 +207,7 @@ export default class DashboardScreen extends Component {
           style={styles.movieListStyle}
           data={movieData}
           showsVerticalScrollIndicator={false}
-          extraData={movieData}         
+          extraData={movieData}
           renderItem={({ item }) => {
             return (
               <TouchableHighlight
@@ -234,7 +232,9 @@ export default class DashboardScreen extends Component {
         <View style={styles.watchListContainer}>
           <TouchableOpacity
             onPress={() => this._openWatchList()}
-            style={styles.watchlistStyles}>
+            style={styles.watchlistStyles}
+            testID={"watchlist"}
+          >
             <Text style={styles.watchlistText}>{"Watch List"}</Text>
             <Image
               style={styles.watchListImageStyle}

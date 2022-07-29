@@ -9,7 +9,7 @@ import rootReducers from "../reducers";
 import { createLogger } from "redux-logger";
 import createSagaMiddleware from "redux-saga";
 import { createStore, compose, applyMiddleware } from "redux";
-import AsyncStorage from "@react-native-community/async-storage";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import { persistStore, persistCombineReducers } from "redux-persist";
 
 const config = {

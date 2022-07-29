@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`Movie Details Screen  Snapshot  1`] = `
 <RCTSafeAreaView
   emulateUnlessSupported={true}
   style={
@@ -27,6 +27,7 @@ exports[`renders correctly 1`] = `
             "height": 210,
           }
         }
+        testID="poster"
       />
       <View
         style={
@@ -57,6 +58,7 @@ exports[`renders correctly 1`] = `
               "width": 95,
             }
           }
+          testID="sub_poster"
         />
         <Text
           style={
@@ -68,6 +70,7 @@ exports[`renders correctly 1`] = `
               "marginTop": 15,
             }
           }
+          testID="title"
         />
       </View>
       <RCTScrollView
@@ -429,6 +432,7 @@ exports[`renders correctly 1`] = `
             "width": 42,
           }
         }
+        testID="watchlist"
       >
         <Image
           source={

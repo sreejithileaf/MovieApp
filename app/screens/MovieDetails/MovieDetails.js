@@ -34,11 +34,10 @@ export default class MovieDetails extends Component {
    * Fetch movie details on page load
    */
 
-  componentDidMount() {
-    const { id } = this.props.navigation.state.params;
+  componentDidMount = async () => {
+    const { id } = await this.props.navigation.state.params;
     const { watchlistItems } = this.props;
     let filterData = watchlistItems.filter((item) => item.id == id);
-
     this.setState({ isWatchlistItem: filterData.length > 0 });
     this.props.getMovieDetailsAction(id, ({ data, status }) => {
       if (status) {
@@ -48,7 +47,7 @@ export default class MovieDetails extends Component {
         });
       }
     });
-  }
+  };
 
   /*
    * Shows a toast/alert message when movie is added/removed from Watchlist
@@ -75,10 +74,8 @@ export default class MovieDetails extends Component {
   _addToWatchList = () => {
     const { item, id } = this.props.navigation.state.params;
     const { watchlistItems, updateWatchlist } = this.props;
-
     const { isWatchlistItem } = this.state;
     let updatedWatchListArray = [];
-
     if (isWatchlistItem) {
       let tempArray = [...watchlistItems];
       let indexFound = -1;
@@ -88,12 +85,10 @@ export default class MovieDetails extends Component {
         }
       });
       if (indexFound > -1) tempArray.splice(indexFound, 1);
-
       updatedWatchListArray = tempArray;
     } else {
       updatedWatchListArray = [...watchlistItems, ...[item]];
     }
-
     updateWatchlist(updatedWatchListArray);
     this.setState({ isWatchlistItem: !this.state.isWatchlistItem });
     this._notifyMessage(
@@ -112,6 +107,7 @@ export default class MovieDetails extends Component {
             source={{
               uri: Constants.APP_IMG_URL_LARGE + movieData.poster_path,
             }}
+            testID={"poster"}
           ></Image>
 
           <View style={styles.movieTitleContainer}>
@@ -120,9 +116,12 @@ export default class MovieDetails extends Component {
               source={{
                 uri: Constants.APP_IMG_URL_LARGE + movieData.poster_path,
               }}
+              testID={"sub_poster"}
             ></Image>
 
-            <Text style={styles.movieTitleTextStyle}>{movieData.title}</Text>
+            <Text style={styles.movieTitleTextStyle} testID={"title"}>
+              {movieData.title}
+            </Text>
           </View>
 
           <FlatList
@@ -236,6 +235,7 @@ export default class MovieDetails extends Component {
             <TouchableOpacity
               style={styles.watchListContainer}
               onPress={() => this._addToWatchList()}
+              testID={"watchlist"}
             >
               <Image
                 style={styles.watchListImageStyle}
